@@ -152,6 +152,13 @@ client.on("message", (message) => {
 
 })
 
+client.on("message", (message) => {
+    if(message.content.startsWith("Puta")) {
+        message.channel.send("QUEE? no digas eso!")
+    }
+
+})
+
 
 
 client.login(process.env.token);
