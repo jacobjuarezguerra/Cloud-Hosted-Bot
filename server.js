@@ -28,10 +28,10 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
-
 client.once("ready" ,() => {
     console.log("BOT ONLINE ;)");
 });
+
 
 client.on('message', (message) => {
     if(message.content.startsWith('imbecil')) {
@@ -175,10 +175,6 @@ client.on("message", (message) => {
     }
 
 })
-
-
-
-
 
 
 
