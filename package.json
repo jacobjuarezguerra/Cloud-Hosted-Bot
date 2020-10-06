@@ -1,0 +1,14 @@
+{
+  "name": "goodmanners",
+  "version": "1.0.0",
+  "description": "A bot to mantain a well mannered group",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
