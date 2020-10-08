@@ -10,24 +10,6 @@ client.once("ready" ,() => {
 
 
 
-  client.on('message', (message) => {
-    if(message.content.startsWith('imbecile')) {
-      message.channel.send("Shh dont say that!!");
-    }
-  
-  });
-  client.on('message', (message) => {
-    if(message.content.startsWith('IMBECILE')) {
-      message.channel.send("Shh dont say that!!");
-    }
-  
-  });
-  client.on('message', (message) => {
-    if(message.content.startsWith('Imbecile')) {
-      message.channel.send("Shh dont say that!!");
-    }
-  
-  });
 
 
 
@@ -51,6 +33,26 @@ client.on('message', (message) => {
     }
   
   });
+  client.on('message', (message) => {
+    if(message.content.endsWith('Imbecil')) {
+      message.channel.send("Callado vos!!");
+    }
+  
+  });
+  
+client.on('message', (message) => {
+    if(message.content.endsWith('IMBECIL')) {
+      message.channel.send("Callado vos!!");
+    }
+  
+  });
+  
+client.on('message', (message) => {
+    if(message.content.endsWith('imbecil')) {
+      message.channel.send("Callado vos!!");
+    }
+  
+  });
 
 
 client.on('message', (message) => {
@@ -67,6 +69,43 @@ client.on('message', (message) => {
     }
 
 })
+
+client.on('message', (message) => {
+    if(message.content.endsWith('Hola')) {
+      message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado");
+    }
+  
+  });
+
+
+  client.on("message", (message) => {
+    if(message.content.endsWith("hola")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("hello")) {
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
+    }
+
+})
+
+
+client.on("message", (message) => {
+    if(message.content.startsWith("Hello")) {
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("HELLO")) {
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
+    }
+
+})
 client.on("message", (message) => {
     if(message.content.startsWith("mierda")) {
         message.channel.send("Callate vos No digas eso!")
@@ -79,6 +118,32 @@ client.on("message", (message) => {
     }
 
 })
+
+client.on("message", (message) => {
+    if(message.content.startsWith("MIERDA")) {
+        message.channel.send("Callate vos No digas eso!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("shit")) {
+        message.channel.send("Dont say that!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Shit")) {
+        message.channel.send("Dont say that!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("SHIT")) {
+        message.channel.send("Dont say that!")
+    }
+
+})
+
 
 
 client.on("message", (message) => {
