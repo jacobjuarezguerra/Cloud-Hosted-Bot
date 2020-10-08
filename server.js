@@ -3,59 +3,9 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 
-
-process.setMaxListeners(100)
-
-client.on("message", (message) => {
-    if(message.content.startsWith("Bastard.")) {
-        message.channel.send("You are very bad. ")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("BASTARD.")) {
-        message.channel.send("You are very bad. ")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("bastard.")) {
-        message.channel.send("You are very bad. ")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("cunt.")) {
-        message.channel.send("You are way too bad. ")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("Cunt.")) {
-        message.channel.send("You are way too bad. ")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("CUNT.")) {
-        message.channel.send("You are way too bad. ")
-    }
-
-})
-
-
-
-client.login(process.env.token);
-
-
-
-
 client.once("ready" ,() => {
     console.log("IM NOW ONLINE");
 });
-
-
-
 
   client.on('message', (message) => {
     if(message.content.startsWith('Imbecil')) {
@@ -407,20 +357,20 @@ client.on("message", (message) => {
 })
 
 client.on("message", (message) => {
-    if(message.content.startsWith("Put4")) {
+    if(message.content.startsWith("Cunt")) {
         message.channel.send("QUEE? no digas eso!")
     }
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("put4")) {
+    if(message.content.startsWith("cunt")) {
         message.channel.send("QUEE? no digas eso!")
     }
 
 })
 
 client.on("message", (message) => {
-    if(message.content.startsWith("PUT4")) {
+    if(message.content.startsWith("CUNT")) {
         message.channel.send("QUEE? no digas eso!")
     }
 
@@ -439,78 +389,37 @@ client.on("message", (message) => {
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("HOL4")) {
+    if(message.content.startsWith("Bastard")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("H0LA")) {
+    if(message.content.startsWith("bastard")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("H0L4")) {
+    if(message.content.startsWith("BASTARD")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
-
 })
-client.on("message", (message) => {
-    if(message.content.startsWith("Hi")) {
-        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
-    }
 
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("hol4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("h0la")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("h0l4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
-    }
-
-})
 client.on("message", (message) => {
     if(message.content.startsWith("hi")) {
         message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
+
+
 client.on("message", (message) => {
-    if(message.content.startsWith("H1")) {
+    if(message.content.startsWith("Hi")) {
         message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
-client.on("message", (message) => {
-    if(message.content.startsWith("h1")) {
-        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("Hl")) {
-        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("hl")) {
-        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
-    }
-
-})
-
 
 client.on("message", (message) => {
     if(message.content.startsWith("HI")) {
