@@ -11,28 +11,6 @@ client.once("ready" ,() => {
 
 
 
-
-
-client.on('message', (message) => {
-    if(message.content.startsWith('Imbecil')) {
-      message.channel.send("Callado vos!!");
-    }
-  
-  });
-  
-client.on('message', (message) => {
-    if(message.content.startsWith('IMBECIL')) {
-      message.channel.send("Callado vos!!");
-    }
-  
-  });
-  
-client.on('message', (message) => {
-    if(message.content.startsWith('imbecil')) {
-      message.channel.send("Callado vos!!");
-    }
-  
-  });
   client.on('message', (message) => {
     if(message.content.startsWith('Imbecil')) {
       message.channel.send("Callado vos!!");
