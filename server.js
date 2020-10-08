@@ -136,6 +136,12 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("NICE")) {
+        message.channel.send("🐇💨🐇")
+    }
+
+})
 
 
 client.on("message", (message) => {
