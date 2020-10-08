@@ -305,6 +305,55 @@ client.on("message", (message) => {
 
 })
 client.on("message", (message) => {
+    if(message.content.startsWith("BYE")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Bye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("bye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("GOODBYE")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("GoodBye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("goodbye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Goodbye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("goodBye")) {
+        message.channel.send("See ya toomorrow!")
+    }
+
+})
+
+client.on("message", (message) => {
     if(message.content.startsWith("Puta")) {
         message.channel.send("QUEE? no digas eso!")
     }
