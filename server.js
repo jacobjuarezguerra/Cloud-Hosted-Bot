@@ -34,21 +34,21 @@ client.on('message', (message) => {
   
   });
   client.on('message', (message) => {
-    if(message.content.endsWith('Imbecil')) {
+    if(message.content.startsWith('Imbecil')) {
       message.channel.send("Callado vos!!");
     }
   
   });
   
 client.on('message', (message) => {
-    if(message.content.endsWith('IMBECIL')) {
+    if(message.content.startsWith('IMBECIL')) {
       message.channel.send("Callado vos!!");
     }
   
   });
   
 client.on('message', (message) => {
-    if(message.content.endsWith('imbecil')) {
+    if(message.content.startsWith('imbecil')) {
       message.channel.send("Callado vos!!");
     }
   
@@ -65,21 +65,6 @@ client.on('message', (message) => {
 
   client.on("message", (message) => {
     if(message.content.startsWith("hola")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
-    }
-
-})
-
-client.on('message', (message) => {
-    if(message.content.endsWith('Hola')) {
-      message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado");
-    }
-  
-  });
-
-
-  client.on("message", (message) => {
-    if(message.content.endsWith("hola")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
