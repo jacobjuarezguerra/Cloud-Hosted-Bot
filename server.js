@@ -51,7 +51,7 @@ client.login(process.env.token);
 
 
 client.once("ready" ,() => {
-    console.log("BOT ONLINE ;)");
+    console.log("IM NOW ONLINE");
 });
 
 
