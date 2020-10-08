@@ -9,12 +9,26 @@ client.once("ready" ,() => {
 });
 
 
-client.on('message', (message) => {
-    if(message.content.startsWith('imbecil')) {
-      message.channel.send("Callado vos!!");
+
+  client.on('message', (message) => {
+    if(message.content.startsWith('imbecile')) {
+      message.channel.send("Shh dont say that!!");
     }
   
   });
+  client.on('message', (message) => {
+    if(message.content.startsWith('IMBECILE')) {
+      message.channel.send("Shh dont say that!!");
+    }
+  
+  });
+  client.on('message', (message) => {
+    if(message.content.startsWith('Imbecile')) {
+      message.channel.send("Shh dont say that!!");
+    }
+  
+  });
+
 
 
 client.on('message', (message) => {
@@ -23,6 +37,21 @@ client.on('message', (message) => {
     }
   
   });
+  
+client.on('message', (message) => {
+    if(message.content.startsWith('IMBECIL')) {
+      message.channel.send("Callado vos!!");
+    }
+  
+  });
+  
+client.on('message', (message) => {
+    if(message.content.startsWith('imbecil')) {
+      message.channel.send("Callado vos!!");
+    }
+  
+  });
+
 
 client.on('message', (message) => {
     if(message.content.startsWith('Hola')) {
@@ -40,6 +69,12 @@ client.on('message', (message) => {
 })
 client.on("message", (message) => {
     if(message.content.startsWith("mierda")) {
+        message.channel.send("Callate vos No digas eso!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("MIERDA")) {
         message.channel.send("Callate vos No digas eso!")
     }
 
@@ -65,6 +100,12 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("SHO")) {
+        message.channel.send("Maleducado 😤😤")
+    }
+
+})
 
 
 
@@ -82,8 +123,18 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("LOL")) {
+        message.channel.send("XD")
+    }
 
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Lol")) {
+        message.channel.send("XD")
+    }
 
+})
 client.on("message", (message) => {
     if(message.content.startsWith("mula")) {
         message.channel.send("Porfavor no Insultos!")
@@ -93,6 +144,12 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if(message.content.startsWith("Mula")) {
+        message.channel.send("Porfavor no Insultos!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("MULA")) {
         message.channel.send("Porfavor no Insultos!")
     }
 
@@ -109,6 +166,12 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if(message.content.startsWith("Estupido")) {
+        message.channel.send("Cual es la razón por la que insultan?")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("ESTUPIDO")) {
         message.channel.send("Cual es la razón por la que insultan?")
     }
 
@@ -157,7 +220,12 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("ADIOS")) {
+        message.channel.send("Hasta luego amigo!")
+    }
 
+})
 client.on("message", (message) => {
     if(message.content.startsWith("Puta")) {
         message.channel.send("QUEE? no digas eso!")
