@@ -358,20 +358,20 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if(message.content.startsWith("Cunt")) {
-        message.channel.send("QUEE? no digas eso!")
+        message.channel.send("please Show a little respect!😫")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("cunt")) {
-        message.channel.send("QUEE? no digas eso!")
+        message.channel.send("please Show a little respect!😫")
     }
 
 })
 
 client.on("message", (message) => {
     if(message.content.startsWith("CUNT")) {
-        message.channel.send("QUEE? no digas eso!")
+        message.channel.send("please Show a little respect!😫")
     }
 
 })
@@ -390,19 +390,19 @@ client.on("message", (message) => {
 })
 client.on("message", (message) => {
     if(message.content.startsWith("Bastard")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
+        message.channel.send("Show a little respect.")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("bastard")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
+        message.channel.send("Show a little respect.")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("BASTARD")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
+        message.channel.send("Show a little respect.")
     }
 })
 
