@@ -219,7 +219,7 @@ client.on("message", (message) => {
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("H1")) {
+    if(message.content.startsWith("h1")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
     }
 
