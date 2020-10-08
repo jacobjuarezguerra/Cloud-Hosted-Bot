@@ -183,7 +183,7 @@ client.on("message", (message) => {
 
 })
 client.on("message", (message) => {
-    if(message.content.startsWith("HOLA")) {
+    if(message.content.startsWith("Hi")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
     }
 
@@ -206,7 +206,36 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("hi")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+    }
 
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("H1")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("H1")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Hl")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("hl")) {
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+    }
+
+})
 
 
 
