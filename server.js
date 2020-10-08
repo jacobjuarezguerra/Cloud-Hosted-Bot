@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
-require('events').EventEmitter.prototype._maxListeners = 100;
+emitter.setMaxListeners(100)
 
 client.on("message", (message) => {
     if(message.content.startsWith("Bastard.")) {
@@ -669,8 +669,4 @@ client.on("message", (message) => {
     }
 
 })
-
-
 client.login(process.env.token);
-
-
