@@ -4,7 +4,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
-emitter.setMaxListeners(100)
+process.setMaxListeners(100)
 
 client.on("message", (message) => {
     if(message.content.startsWith("Bastard.")) {
