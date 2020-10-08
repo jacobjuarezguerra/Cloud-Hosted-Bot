@@ -83,7 +83,7 @@ client.on("message", (message) => {
 })
 
 client.on("message", (message) => {
-    if(message.content.startsWith("MIERDA")) {
+    if(message.content.startsWith("Mierda")) {
         message.channel.send("Callate vos No digas eso!")
     }
 
@@ -109,12 +109,7 @@ client.on("message", (message) => {
 
 
 
-client.on("message", (message) => {
-    if(message.content.startsWith("Mierda")) {
-        message.channel.send("Callate vos No digas eso!")
-    }
 
-})
 client.on("message", (message) => {
     if(message.content.startsWith("sho")) {
         message.channel.send("Maleducado 😤😤")
@@ -140,6 +135,24 @@ client.on("message", (message) => {
 client.on("message", (message) => {
     if(message.content.startsWith("puta")) {
         message.channel.send("QUEEE? no digas esoo")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("fuck")) {
+        message.channel.send("WHAT? DONT SAY THAT PLEASE!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Fuck")) {
+        message.channel.send("WHAT? DONT SAY THAT PLEASE!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("FUCK")) {
+        message.channel.send("WHAT? DONT SAY THAT PLEASE!")
     }
 
 })
@@ -201,6 +214,43 @@ client.on("message", (message) => {
 client.on("message", (message) => {
     if(message.content.startsWith("ESTUPIDO")) {
         message.channel.send("Cual es la razón por la que insultan?")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("stupid")) {
+        message.channel.send("🤨")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Stupid")) {
+        message.channel.send("🤨")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("STUPID")) {
+        message.channel.send("🤨")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("DUMB")) {
+        message.channel.send("🤨")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Dumb")) {
+        message.channel.send("🤨")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("dumb")) {
+        message.channel.send("🤨")
     }
 
 })
@@ -373,8 +423,194 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("Dick")) {
+        message.channel.send("Don't say that its rude")
+    }
 
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("DICK")) {
+        message.channel.send("Don't say that its rude")
+    }
 
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("dick")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("ass")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Ass")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("ASS")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Piss off")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("piss off")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Pissoff")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PissOff")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("pissoff")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("pissOff")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PISS OFF")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PISS off")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Piss OFF")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PISSOFF")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PISSoff")) {
+        message.channel.send("Don't say that its rude")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("Son of a bi")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("son of a bi")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("SON OF A bi")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Son of A bi")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("SON OF a bi")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("bitch")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Bitch")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("BITCH")) {
+        message.channel.send("That's it stop rigth now! ")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("Bastard.")) {
+        message.channel.send("You are very bad. ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("BASTARD.")) {
+        message.channel.send("You are very bad. ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("bastard.")) {
+        message.channel.send("You are very bad. ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("cunt.")) {
+        message.channel.send("You are way too bad. ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("Cunt.")) {
+        message.channel.send("You are way too bad. ")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("CUNT.")) {
+        message.channel.send("You are way too bad. ")
+    }
+
+})
 
 
 
