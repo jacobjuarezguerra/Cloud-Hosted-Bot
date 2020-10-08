@@ -158,6 +158,33 @@ client.on("message", (message) => {
     }
 
 })
+
+client.on("message", (message) => {
+    if(message.content.startsWith("Put4")) {
+        message.channel.send("QUEE? no digas eso!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("put4")) {
+        message.channel.send("QUEE? no digas eso!")
+    }
+
+})
+
+client.on("message", (message) => {
+    if(message.content.startsWith("PUT4")) {
+        message.channel.send("QUEE? no digas eso!")
+    }
+
+})
+client.on("message", (message) => {
+    if(message.content.startsWith("PUTA")) {
+        message.channel.send("QUEE? no digas eso!")
+    }
+
+})
+
 client.on("message", (message) => {
     if(message.content.startsWith("HOLA")) {
         message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
