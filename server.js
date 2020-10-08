@@ -4,6 +4,8 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 
+require('events').EventEmitter.prototype._maxListeners = 100;
+
 client.on("message", (message) => {
     if(message.content.startsWith("Bastard.")) {
         message.channel.send("You are very bad. ")
