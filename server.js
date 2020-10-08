@@ -26,7 +26,7 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
     if(message.content.startsWith('Hola')) {
-      message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado");
+      message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado");
     }
   
   });
@@ -34,7 +34,7 @@ client.on('message', (message) => {
 
   client.on("message", (message) => {
     if(message.content.startsWith("hola")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
@@ -160,79 +160,79 @@ client.on("message", (message) => {
 })
 client.on("message", (message) => {
     if(message.content.startsWith("HOLA")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("HOL4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("H0LA")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("H0L4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("Hi")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("hol4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("h0la")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("h0l4")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("Que tal? nuevo amigo! soy un bot hecho para mantener un grupo Educado y bien portado")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("hi")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("H1")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("h1")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("Hl")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
 client.on("message", (message) => {
     if(message.content.startsWith("hl")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
@@ -240,7 +240,7 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if(message.content.startsWith("HI")) {
-        message.channel.send("Que tal? nuevo amigo! soy un bot hecho por Jacob para mantener un grupo Educado y bien portado")
+        message.channel.send("How are you? new friend! I am a bot made to keep a group Educated and well behaved")
     }
 
 })
