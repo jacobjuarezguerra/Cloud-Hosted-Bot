@@ -265,12 +265,14 @@ client.on("message", (message) => {
     }
 
 })
+
 client.on("message", (message) => {
     if(message.content.startsWith("user-info")) {
         message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
 }
 
 })
+
 client.on("message", (message) => {
     if(message.content.startsWith("server-info")) {
         message.channel.send(`This server's name is: ${message.guild.name}`);
