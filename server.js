@@ -266,19 +266,13 @@ client.on("message", (message) => {
 
 })
 
+ if (message.content === `user-info`) {
+	message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
+}
 
-client.on("message", (message) => {
-    if(message.content.startsWith("Nice")) {
-        message.channel.send("🐇💨")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("NICE")) {
-        message.channel.send("🐇💨🐇")
-    }
-
-})
+else if (message.content === `server`) {
+	message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
+}
 
 
 client.on("message", (message) => {
