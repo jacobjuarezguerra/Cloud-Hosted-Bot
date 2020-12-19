@@ -271,7 +271,12 @@ client.on("message", (message) => {
 }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("server-info")) {
+        message.channel.send(`This server's name is: ${message.guild.name}`);
+}
 
+})
 
 client.on("message", (message) => {
     if(message.content.startsWith("adios")) {
