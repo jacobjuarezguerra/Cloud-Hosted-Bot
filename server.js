@@ -265,6 +265,12 @@ client.on("message", (message) => {
     }
 
 })
+client.on("message", (message) => {
+    if(message.content.startsWith("user-info")) {
+        message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
+}
+
+})
 
  if (message.content === `user-info`) {
 	message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
