@@ -259,12 +259,6 @@ client.on("message", (message) => {
 
 })
 
-client.on("message", (message) => {
-    if(message.content.startsWith("nice")) {
-        message.channel.send("🐱‍👓")
-    }
-
-})
 
 client.on("message", (message) => {
     if(message.content.startsWith("user info")) {
@@ -275,8 +269,8 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if(message.content.startsWith("server")) {
-        message.channel.send(`This server's name is: ${message.guild.name}`);
-}
+        message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
+    }
 
 })
 
