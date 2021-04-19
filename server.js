@@ -7,6 +7,12 @@ client.once("ready" ,() => {
     console.log("IM NOW ONLINE");
 });
 
+client.on('message', (message) => {
+    if(message.content.startsWith('Epicardo')) {
+      message.channel.send("https://discord.com/channels/803996944275079241/804409143669555237/833718201773850688");
+    }
+  
+  });
   client.on('message', (message) => {
     if(message.content.startsWith('Imbecil')) {
       message.channel.send("Callado vos!!");
