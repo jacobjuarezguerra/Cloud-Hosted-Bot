@@ -7,46 +7,7 @@ client.once("ready" ,() => {
     console.log("IM NOW ONLINE");
 });
 
-client.on('message', (message) => {
-    if(message.content.startsWith('maldito')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
-  client.on('message', (message) => {
-    if(message.content.startsWith('Maldito')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
-
-  client.on('message', (message) => {
-    if(message.content.startsWith('MALDITO')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
-
-  client.on('message', (message) => {
-    if(message.content.startsWith('maldita')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
-
-  client.on('message', (message) => {
-    if(message.content.startsWith('Maldita')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
-
-  client.on('message', (message) => {
-    if(message.content.startsWith('MALDITA')) {
-      message.channel.send("No se falten el respeto");
-    }
-  
-  });
+c
 
   client.on('message', (message) => {
     if(message.content.startsWith('Poppy')) {
