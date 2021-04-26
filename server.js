@@ -7,7 +7,7 @@ client.once("ready" ,() => {
     console.log("IM NOW ONLINE");
 });
 
-c
+
 
   client.on('message', (message) => {
     if(message.content.startsWith('Poppy')) {
