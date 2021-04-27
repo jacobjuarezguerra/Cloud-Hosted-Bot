@@ -587,11 +587,4 @@ client.on("message", (message) => {
     }
 
 })
-client.on("message", (message) => {
-    if(message.content.startsWith("Bayer")) {
-        message.channel.send("That's it stop rigth now! ")
-    }
-
-})
-
 client.login(process.env.token);
