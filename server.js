@@ -119,8 +119,6 @@ client.on("message", (message) => {
 })
 
 
-
-
 client.on("message", (message) => {
     if(message.content.startsWith("sho")) {
         message.channel.send("Maleducado 😤😤")
@@ -175,34 +173,10 @@ client.on("message", (message) => {
     }
 
 })
-client.on("message", (message) => {
-    if(message.content.startsWith("LOL")) {
-        message.channel.send("XD")
-    }
 
-})
 client.on("message", (message) => {
     if(message.content.startsWith("Lol")) {
         message.channel.send("XD")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("mula")) {
-        message.channel.send("Porfavor no Insultos!")
-    }
-
-})
-
-client.on("message", (message) => {
-    if(message.content.startsWith("Mula")) {
-        message.channel.send("Porfavor no Insultos!")
-    }
-
-})
-client.on("message", (message) => {
-    if(message.content.startsWith("MULA")) {
-        message.channel.send("Porfavor no Insultos!")
     }
 
 })
@@ -587,4 +561,4 @@ client.on("message", (message) => {
     }
 
 })
-client.login(process.env.token);
+client.login(NzYyNjk5MTY2MDIyNTAwMzUy.X3s88w.zrFAlt_73Uup_l7RbkgAcQj2Qdo);
