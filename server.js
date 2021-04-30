@@ -10,18 +10,10 @@ client.once("ready" ,() => {
 
 client.on('message', (message) => {
     if(message.content.startsWith('Epicardo')) {
-      message.channel.send("https://tenor.com/view/stronger-than-you-spanish-in-africa-stronger-than-you-stronger-than-you-gif-20324898");
+      message.channel.send("https://discord.com/channels/803996944275079241/804409143669555237/833718201773850688");
     }
   
   });
-
-  client.on('message', (message) => {
-    if(message.content.startsWith('epicardo')) {
-      message.channel.send("https://tenor.com/view/stronger-than-you-spanish-in-africa-stronger-than-you-stronger-than-you-gif-20324898");
-    }
-  
-  });
-
   client.on('message', (message) => {
     if(message.content.startsWith('Imbecil')) {
       message.channel.send("Callado vos!!");
