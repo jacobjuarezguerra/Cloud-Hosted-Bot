@@ -7,7 +7,6 @@ client.once("ready" ,() => {
     console.log("IM NOW ONLINE");
 });
 
-<<<<<<< HEAD
 
 client.on('message', (message) => {
     if(message.content.startsWith('Epicardo')) {
@@ -23,8 +22,6 @@ client.on('message', (message) => {
   
   });
 
-=======
->>>>>>> parent of c7cf548 (Update server.js)
   client.on('message', (message) => {
     if(message.content.startsWith('Imbecil')) {
       message.channel.send("Callado vos!!");
