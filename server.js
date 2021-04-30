@@ -283,12 +283,6 @@ client.on("message", (message) => {
 })
 
 
-client.on("message", (message) => {
-    if(message.content.startsWith("server")) {
-        message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
-    }
-
-})
 
 client.on("message", (message) => {
     if(message.content.startsWith("adios")) {
