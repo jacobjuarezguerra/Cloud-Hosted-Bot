@@ -10,7 +10,7 @@ client.once("ready" ,() => {
 
 
   client.on('message', (message) => {
-    if(message.content.startsWith('poppy')) {
+    if(message.content.startsWith('Poppy')) {
       message.channel.send("https://tenor.com/view/poppy-gif-9785008");
     }
   
