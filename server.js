@@ -8,6 +8,14 @@ client.once("ready" ,() => {
 });
 
 
+
+  client.on('message', (message) => {
+    if(message.content.startsWith('poppy')) {
+      message.channel.send("https://tenor.com/view/poppy-gif-9785008");
+    }
+  
+  });
+
 client.on('message', (message) => {
     if(message.content.startsWith('Epicardo')) {
       message.channel.send("https://tenor.com/view/stronger-than-you-spanish-in-africa-stronger-than-you-stronger-than-you-gif-20324898");
